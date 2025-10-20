@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Facebook - Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <!-- Facebook logo via link (pode substituir pela sua imagem) -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" />
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar no Facebook" />
+      </div>
+
+      <div class="login-form">
+        <input type="text" placeholder="Email ou telefone" id="email" />
+        <input type="password" placeholder="Senha" id="password" />
+        <button id="login-btn">Entrar</button>
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="create-account">
+      <h2>Crie uma nova conta</h2>
+      <p>É rápido e fácil.</p>
+      <form id="signup-form">
+        <input type="text" placeholder="Nome" required />
+        <input type="text" placeholder="Sobrenome" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Nova senha" required />
+        <button type="submit">Cadastre-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Facebook Clone - Feito com ❤️ por você!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

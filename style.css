@@ -1,0 +1,152 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #1c1e21;
+}
+
+header {
+  background-color: #4267b2;
+  padding: 15px 30px;
+  color: white;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 7px 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.login-form button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: #165ecc;
+}
+
+.login-form a {
+  color: #e4e6eb;
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+}
+
+.create-account h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.create-account p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#create-account-form input,
+#create-account-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#create-account-form input {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+#create-account-form button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#create-account-form button:hover {
+  background-color: #36a420;
+}
+
+/* Ajuste do formulário criado para melhor visual */
+#create-account-form {
+  max-width: 400px;
+}
+
+.create-account form input,
+.create-account form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-account form button {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-account form button:hover {
+  background-color: #36a420;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 14px;
+  color: #606770;
+}
